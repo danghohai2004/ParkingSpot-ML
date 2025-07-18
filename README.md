@@ -31,7 +31,7 @@ The goal is to support more efficient parking management by determining the stat
 🚫 **Note**: The original video file `parking_lot.mp4` is too large to be included here.  
 You can download it from the following Google Drive link:
 
-👉 [Download Video from Google Drive](https://drive.google.com/drive/folders/1CjEFWihRqTLNUnYRwHXxGAVwSXF2k8QC)
+👉 [Download Video from Google Drive](https://drive.google.com/drive/folders/1jovc7oBMFV1DutrijBFDbEMIO7fWwh5o)
 
 **Please refer to the original dataset provider's terms of use for licensing and attribution.**
 
