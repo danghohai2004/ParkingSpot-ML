@@ -1,21 +1,39 @@
 # 🅿️ ParkingSpot-ML
-ParkingSpot-ML is a project that uses Machine Learning and Computer Vision to detect and classify parking spaces in videos. The goal is to support more efficient parking management by determining the status of each parking space: vacant or occupied.
+
+**ParkingSpot-ML** is a project that uses **Machine Learning** and **Computer Vision** to detect and classify parking spaces in video streams.  
+The goal is to support more efficient parking management by determining the status of each parking space: **vacant** or **occupied**.
+
+---
 
 ## 🚀 Project Overview
-- Model used: SVC (Support Vector Machine)
-- Input: Video from surveillance cameras.
-- Output: Location of parking spaces and their status (empty/occupied).
+
+- **Model used**: SVC (Support Vector Classifier)
+- **Input**: Video footage from surveillance cameras
+- **Output**: Location of parking spaces and their status (empty/occupied)
+
+---
 
 ## 🎯 Goals
-- Real-time parking status detection and classification.
-- Provides information on the number of vacant and occupied parking spaces.
-- Supports integration with existing monitoring systems.
+
+- Real-time parking slot detection and classification
+- Display the number of available and occupied parking spots
+- Easy integration with existing monitoring systems
 
 ---
 
 ## 🧠 Dataset
-**The dataset used in this project is sourced from** [ParkingLotDetectorAndCounter]([https://drive.google.com/drive/folders/1CjEFWihRqTLNUnYRwHXxGAVwSXF2k8QC).  
-**Please refer to their terms of use for dataset licensing and usage.**
+
+- The full dataset includes:
+  - Raw video of a parking lot
+  - Region-of-interest (mask) image
+  - Labeled image dataset of `empty` and `not_empty` parking slots
+
+🚫 **Note**: The original video file `parking_lot.mp4` is too large to be included here.  
+You can download it from the following Google Drive link:
+
+👉 [Download Video from Google Drive](https://drive.google.com/drive/folders/1CjEFWihRqTLNUnYRwHXxGAVwSXF2k8QC)
+
+**Please refer to the original dataset provider's terms of use for licensing and attribution.**
 
 ---
 
@@ -26,14 +44,18 @@ ParkingSpot-ML is a project that uses Machine Learning and Computer Vision to de
 ---
 
 ## 📂 File Structure
-- [Data](./data)
-- [Detection Parking ID](./detection_parking_ID/parking_slots_ID.py) 
-- [Processing](./processing/drop_cars_images.py) 
-- [Model Training](./train.py)  
-- [model.pkl](./model.pkl)  
-- [main.py](./main.py)  
-- [Demo](./demo)  
+- [dataset](./dataset)
+  - [not_empty](./dataset/not_empty)
+  - [empty](./dataset/empty)
+- [detection_parking_ID](./detection_parking_ID) 
+  - [parking_spot_ids](./detection_parking_ID/parking_spot_ids.py)
+- [processing](./processing) 
+  - [cropped_spots_images](./processing/cropped_spots_images.py)
+- [demo](./demo)  
   - [video_pre.gif](./demo/video_pre.gif)
+- [main.py](./main.py)  
+- [train](./train.py)  
+- [model.pkl](./model.pkl)
 - [requirements.txt](./requirements.txt)
 - [README.md](./README.md)
 
@@ -57,7 +79,7 @@ This project is licensed under the MIT License. Feel free to use, modify, and di
 
 ## 📬 Contact
 
-- 📧 **Email** — [contact me](mailto:dhhaics2004@gmail.com?subject=Question%20about%20the%20Face%20Mask%20Detection%20Project)
+- 📧 **Email** — [contact me](mailto:dhhaics2004@gmail.com?subject=Question%20about%20ParkingSpot-ML%20project)
 - 🌐 **GitHub** — [@danghohai2004](https://github.com/danghohai2004)
 
 ---
