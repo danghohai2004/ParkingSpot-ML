@@ -1,7 +1,9 @@
+from pathlib import Path
 import cv2
 
-mask_path = "../data/mask_1920_1080.png"
-video_path = "../data/parking_1920_1080.mp4"
+base_path = Path(__file__).resolve().parents[1]
+mask_path = base_path / "dataset" / "mask_1920_1080.png"
+video_path = base_path / "dataset" / "parking_1920_1080_loop.mp4"
 
 mask = cv2.imread(mask_path, 0)
 cap = cv2.VideoCapture(video_path)
