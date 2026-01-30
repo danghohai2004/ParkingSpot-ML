@@ -30,7 +30,9 @@ The goal is to support more efficient parking management by determining the stat
 
 **Note**: Due to GitHub's file size limitations, the raw video file `parking_1920_1080_loop.mp4` is hosted externally.
 
-👉 [Download Video from Google Drive](https://drive.google.com/drive/folders/1jovc7oBMFV1DutrijBFDbEMIO7fWwh5o)
+1. Download: [Click here to download from Google Drive](https://drive.google.com/drive/folders/1jovc7oBMFV1DutrijBFDbEMIO7fWwh5o)
+
+2. Setup: Place the downloaded file into the dataset/ folder before running the scripts.
 
 **Please refer to the original dataset provider's terms of use for licensing and attribution.**
 
