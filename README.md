@@ -1,11 +1,11 @@
-# 🅿️ ParkingSpot-ML
+# ParkingSpot-ML
 
 **ParkingSpot-ML** is a project that uses **Machine Learning** and **Computer Vision** to detect and classify parking spaces in video streams.  
 The goal is to support more efficient parking management by determining the status of each parking space: **vacant** or **occupied**.
 
 ---
 
-## 🚀 Project Overview
+## Project Overview
 
 - **Model used**: SVC (Support Vector Classifier)
 - **Input**: Video footage from surveillance cameras
@@ -13,7 +13,7 @@ The goal is to support more efficient parking management by determining the stat
 
 ---
 
-## 🎯 Goals
+## Goals
 
 - Real-time parking slot detection and classification
 - Display the number of available and occupied parking spots
@@ -21,15 +21,14 @@ The goal is to support more efficient parking management by determining the stat
 
 ---
 
-## 🧠 Dataset
+## Dataset
 
 - The full dataset includes:
   - Raw video of a parking lot
   - Region-of-interest (mask) image
   - Labeled image dataset of `empty` and `not_empty` parking slots
 
-🚫 **Note**: The original video file `parking_lot.mp4` is too large to be included here.  
-You can download it from the following Google Drive link:
+**Note**: Due to GitHub's file size limitations, the raw video file `parking_1920_1080_loop.mp4` is hosted externally.
 
 👉 [Download Video from Google Drive](https://drive.google.com/drive/folders/1jovc7oBMFV1DutrijBFDbEMIO7fWwh5o)
 
@@ -37,13 +36,13 @@ You can download it from the following Google Drive link:
 
 ---
 
-## ⏱️ Video Demo
+## Video Demo
 
 ![Example Prediction](demo/video_pre.gif)
 
 ---
 
-## 📂 File Structure
+## File Structure
 - [dataset](./dataset)
   - [not_empty](./dataset/not_empty)
   - [empty](./dataset/empty)
